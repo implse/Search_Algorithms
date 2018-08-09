@@ -7,7 +7,6 @@ def binary_search_recursive(arr, value_to_search, low, high):
         if arr[mid] == value_to_search:
             return mid
             # return "Value {} found at index: {}".format(value_to_search, mid)
-
         elif arr[mid] > value_to_search:
             return binary_search_recursive(arr, value_to_search, low, mid - 1)
         else:
