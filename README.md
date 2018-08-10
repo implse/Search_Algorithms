@@ -1,0 +1,29 @@
+# Search Algorithm
+
+Searching is the process of finding an item with specified properties from a collection of items.
+
+## Linear Search
+
+Linear search sequentially checks each element of the list until it finds an element that matches the searching value.
+
+#### Unordered Linear Search
+
+Let us assume we are given an array where the order of the elements is not known. That means the elements of
+the array are not sorted. In this case, to search for an element we have to scan the complete array and see if the
+element is in the given array or not.
+
+#### Sorted / Ordered Linear Search
+
+If the elements of the array are already sorted, then in many cases we don't have to scan the complete array to
+see if the element is there in the given array or not.
+
+If at any point the value arr[i] is greater than the data to be searched, then we just return -1 witouht searching the remaining array.
+
+
+__Time Complexity : O(n)__
+
+Linear search is rarely used practically because other search algorithms such as the binary search and hash tables allow significantly faster searching comparison to Linear search.
+
+## Binary Search
+
+Time Complexity :  O(log n)
