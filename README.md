@@ -34,4 +34,4 @@ If the value of the search key is less than the item in the middle of the interv
 
 Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
 
-Time Complexity :  O(log n)
+__Time Complexity :  O(log n)__
