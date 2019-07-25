@@ -31,6 +31,10 @@ Begin with an interval covering the whole array.
 
 If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
 
-Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+Otherwise narrow it to the upper half.
+
+Repeatedly check until the value is found or the interval is empty.
+
+A binary search tree is a binary tree data structure that works based on the principle of binary search.
 
 __Time Complexity :  O(log n)__
