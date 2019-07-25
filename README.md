@@ -17,8 +17,7 @@ element is in the given array or not.
 If the elements of the array are already sorted, then in many cases we don't have to scan the complete array to
 see if the element is there in the given array or not.
 
-If at any point the value arr[i] is greater than the data to be searched, then we just return -1 without searching the remaining array.
-
+If the value arr[-1] is greater than the data to be searched, then we just return -1 without searching the remaining array.
 
 __Time Complexity : O(n)__
 
