@@ -3,6 +3,7 @@
 # Recursive Binary Search
 def binary_search_recursive(sorted_list, target_value, low, high):
     if high >= low:
+        # Avoid overflow for mid index
         mid = low + (high - low) // 2
         if sorted_list[mid] == target_value:
             return mid
@@ -17,6 +18,7 @@ def binary_search_recursive(sorted_list, target_value, low, high):
 # Iterative Binary Search
 def binary_search_iterative(sorted_list, target_value, low, high):
     while low <= high:
+        # Avoid overflow for mid index
         mid = low + (high - low) // 2
         if sorted_list[mid] == target_value:
             return mid

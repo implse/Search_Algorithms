@@ -27,7 +27,6 @@ def find_duplicates(search_list, target_value):
     else:
         raise ValueError("{0} not in list".format(target_value))
 
-
 # Linear Search - Find Maximum Value
 def find_maximum(search_list):
     maximum_value_index = None
