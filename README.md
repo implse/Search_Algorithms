@@ -25,16 +25,22 @@ Linear search is rarely used practically because other search algorithms such as
 
 ## Binary Search
 
-Search a sorted array by repeatedly dividing the search interval in half.
+`Binary search` is used to search an element in a `sorted list` of elements by repeatedly dividing the search interval in `half`.
 
-Begin with an interval covering the whole array.
+`Binary search` works by comparing the `value` to search for with the `middle value` of the `sorted list`.
 
-If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half.
+- It begin with an `interval` covering the whole `list` of elements.
 
-Otherwise narrow it to the upper half.
+- If the value is higher than the `middle value`, then the search proceeds in the `right half` of the `list`.
 
-Repeatedly check until the value is found or the interval is empty.
+- If the value is lower than the `middle value`, then the search proceeds in the `left half` of the `list`.
 
-A binary search tree is a binary tree data structure that works based on the principle of binary search.
+- This process is repeated comparing the `searching value` and the `middle value` until the `value` is found or the `interval` is empty and the `searching value` is not in the `list`.
 
-__Time Complexity:__ `O(log n)`
+note : A `binary search tree` is a `binary tree` data structure that works based on the principle of `binary search`.
+
+The `binary search` pattern is based on the `divide and conquer` algorithm technique.
+
+`binary search` reduces the search complexity to `O(log(n))`.
+
+__Time Complexity:__ `O(log(n))`
