@@ -29,7 +29,9 @@ Linear search is rarely used practically because other search algorithms such as
 
 `Binary search` works by comparing the `value` to search for with the `middle value` of the `sorted list`.
 
-- It begin with an `interval` covering the whole `list` of elements.
+- It begin with an `interval` covering the whole `list` of elements, getting the `middle value`. (it splits list by two halves).
+
+- Check if the `middle value` is equal to the `value` we’re searching for.
 
 - If the value is higher than the `middle value`, then the search proceeds in the `right half` of the `list`.
 
@@ -42,5 +44,12 @@ note : A `binary search tree` is a `binary tree` data structure that works based
 The `binary search` pattern is based on the `divide and conquer` algorithm technique.
 
 `binary search` reduces the search complexity to `O(log(n))`.
+
+The algorithm may be implemented in different ways using `iterative` or `recursive` approach.
+
+The number of possible divisions is proportional to the power of two that will give us the total
+number of elements in the list.
+
+if the `sorted list` contain 10 000 elements then number of possible divisions is `log2(10 000) = 13.28`.
 
 __Time Complexity:__ `O(log(n))`
