@@ -4,24 +4,24 @@ Searching is the process of finding an item with specified properties from a col
 
 ## Linear Search
 
-Linear search sequentially checks each element of the list until it finds an element that matches the searching value.
+`Linear search` or `sequential search` sequentially checks each element of the list until it finds an element that matches the searching value.
 
 ### Unordered Linear Search
 
-Let us assume we are given an array where the order of the elements is not known. That means the elements of
-the array are not sorted. In this case, to search for an element we have to scan the complete array and see if the
-element is in the given array or not.
+Let us assume we are given a list where the order of the elements is not known. That means the elements of
+the list are not sorted. In this case, to search for an element we have to scan the complete list and see if the
+element is in the given list or not.
 
 ### Sorted / Ordered Linear Search
 
-If the elements of the array are already sorted, then in many cases we don't have to scan the complete array to
-see if the element is there in the given array or not.
+If the elements of the list are already sorted, then in many cases we don't have to scan the complete list to
+see if the element is there in the given list or not.
 
 If the value `arr[-1]` is greater than the data to be searched, then we just return `-1` without searching the remaining array.
 
 __Time Complexity:__ `O(n)`
 
-Linear search is rarely used practically because other search algorithms such as the binary search and hash tables allow significantly faster searching comparison to Linear search.
+`Linear search` is rarely used practically because other search algorithms such as the binary search and hash tables allow significantly faster searching comparison to `Linear search`.
 
 ## Binary Search
 
