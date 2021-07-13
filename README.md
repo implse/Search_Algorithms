@@ -1,4 +1,4 @@
-# Search Algorithm
+# Search Algorithms
 
 Searching is the process of finding an item with specified properties from a collection of items.
 
