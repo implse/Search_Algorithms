@@ -25,7 +25,7 @@ __Time Complexity:__ `O(n)`
 
 ## Binary Search
 
-`Binary search` is used to search an element in a `sorted list` of elements by repeatedly dividing the search interval in `half`.
+`Binary search` is used to search an `value` in a `sorted list` of elements by repeatedly dividing the search interval in `half`.
 
 `Binary search` works by comparing the `value` to search for with the `middle value` of the `sorted list`.
 
@@ -37,9 +37,7 @@ __Time Complexity:__ `O(n)`
 
 - If the value is lower than the `middle value`, then the search proceeds in the `left half` of the `list`.
 
-- This process is repeated comparing the `searching value` and the `middle value` until the `value` is found or the `interval` is empty and the `searching value` is not in the `list`.
-
-note : A `binary search tree` is a `binary tree` data structure that works based on the principle of `binary search`.
+- This process is repeated comparing the `searching value` and the `middle value` until the `value` is found or the `interval` is empty then in this case the `searching value` is not in the `list`.
 
 The `binary search` pattern is based on the `divide and conquer` algorithm technique.
 
@@ -50,6 +48,8 @@ The algorithm may be implemented in different ways using `iterative` or `recursi
 The number of possible divisions is proportional to the power of two that will give us the total
 number of elements in the list.
 
-if the `sorted list` contain 10 000 elements then number of possible divisions is `log2(10 000) = 13.28`.
+If the `sorted list` contain 10 000 elements then number of possible divisions is `log2(10 000) = 13.28`.
 
 __Time Complexity:__ `O(log(n))`
+
+note : A `binary search tree` is a `binary tree` data structure that works based on the principle of `binary search`.
